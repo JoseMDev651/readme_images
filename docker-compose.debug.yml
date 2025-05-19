@@ -1,0 +1,6 @@
+services:
+  readmeimages:
+    image: readmeimages
+    build:
+      context: .
+      dockerfile: ./Dockerfile
